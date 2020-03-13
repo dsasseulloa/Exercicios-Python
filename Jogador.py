@@ -1,6 +1,7 @@
 class Jogador:
-    def __init__(self,cartas_viradas):
+    def __init__(self,cartas_viradas,nome):
         self.cartas_viradas=cartas_viradas
+        self.nome=nome
 
     def virar_carta(self, cartas_embaralhadas):
         cartas_viradas = []
