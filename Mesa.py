@@ -3,6 +3,9 @@ class Mesa:
     #     self.jogador = Jogador
     #     self.cartas = Cartas(['a'])
 
+    def Pegar_carta(self,jogador):
+        pass
+
     def Jogo(self,cartas,jogador,cartas_embaralhadas):
 
         continuar_jogo = True
@@ -10,6 +13,7 @@ class Mesa:
         cartas_escolhidas = jogador.cartas_viradas
 
         while continuar_jogo:
+            continua = True
             cartas_do_jogador = jogador.virar_carta(cartas_embaralhadas)
             print(f"Você pegou a carta {cartas_do_jogador} ")
 
@@ -31,8 +35,20 @@ class Mesa:
                 print("Voce perdeu o jogo")
                 break
             else:
-                input("pegar mais uma carta? y/n ")
+                x=input("Pegar mais uma carta? y/n ")
+                if x == 'y' or x=="Y":
+                    continue
+                if x =='n' or x=="N":
+                    print("n")
+                    break
+                else:
+                    while x != 'y' or x != 'n':
+                        print('insira y ou n')
+                        x = input("Pegar mais uma carta? y/n ")
+                        if x == 'y' or x=="Y":
+                            break
+                        if x =='n' or x=="N":
+                            continuar_jogo = False
+                            print("perdeu")
+                            break
 
-
-
-# ['♦','♣','♠','♥']
