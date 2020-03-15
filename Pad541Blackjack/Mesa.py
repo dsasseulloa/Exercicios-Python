@@ -57,7 +57,6 @@ class Mesa:
                         ganhador=0
                     else:
                         break
-                print(ganhador)
                 print("Ganhadores: ")
                 for i in range(len(lista_jogadores)):
                     if lista_jogadores[i].pontos == ganhador:
