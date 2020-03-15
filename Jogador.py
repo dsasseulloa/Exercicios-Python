@@ -1,11 +1,12 @@
 class Jogador:
-    def __init__(self,cartas_viradas,nome):
-        self.cartas_viradas=cartas_viradas
+    def __init__(self,nome):
+        self.cartas_viradas=[]
         self.nome=nome
+        self.pontos=0
 
     def virar_carta(self, cartas_embaralhadas):
-        cartas_viradas = []
         pegar_carta = cartas_embaralhadas[0]
-        cartas_viradas.append(pegar_carta)
+        self.cartas_viradas.append(pegar_carta)
         cartas_embaralhadas.pop(0)
-        return cartas_viradas
+        return pegar_carta
+
