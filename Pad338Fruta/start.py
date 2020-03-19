@@ -19,7 +19,6 @@ string_fruta=''
 for i in fruta_escolhida:
     lista_fruta_escolhida.append(i)
 
-print(lista_fruta_escolhida)
 lista_letra_fruta = []
 for i in lista_fruta_escolhida:
         lista_letra_fruta.append('_')
