@@ -6,8 +6,8 @@ from Jogador import Jogador as jogo
 
 
 # Inicializao de jogo inteiro \/
-# jogo().inicializacao_jogo()
+jogo().inicializacao_jogo()
 
 # Inicializao de testes para testar com apenas 2 navios
-jogo().teste_inicializacao_jogo_com_2_navios()
+# jogo().teste_inicializacao_jogo_com_2_navios()
 

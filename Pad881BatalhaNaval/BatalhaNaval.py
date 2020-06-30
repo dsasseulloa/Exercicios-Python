@@ -1,6 +1,4 @@
 from Navio import Navio
-
-
 class BatalhaNaval:
     def __init__(self):
         self.lista_matriz=[]

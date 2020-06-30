@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3c5863f7-041a-4105-9258-3b79165935a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cartas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cartas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pad881BatalhaNaval" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected="Python.start">
@@ -125,6 +127,9 @@
       <workItem from="1584313626765" duration="6000" />
       <workItem from="1584313633931" duration="7000" />
       <workItem from="1584561493755" duration="405000" />
+      <workItem from="1585059505927" duration="121000" />
+      <workItem from="1585059662721" duration="4019000" />
+      <workItem from="1585153866971" duration="30000" />
     </task>
     <servers />
   </component>
@@ -136,40 +141,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="134" key="#start/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1584285246994" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584313638886">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1585153895685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1584313638886" />
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1584313569528">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1585153895685" />
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1585066864981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1584104328481" />
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1584313569528" />
-    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1584313569528">
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1585066864981" />
+    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1585066864980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1584104328481" />
-    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1584313569528" />
-    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1584313569528">
+    <state width="1877" height="185" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1585066864980" />
+    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1585066864979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1584104328481" />
-    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1584313569528" />
-    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1584313569528">
+    <state width="1877" height="185" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1585066864979" />
+    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1585066864981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1584104328481" />
-    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1584313569528" />
-    <state x="504" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1584313626571">
+    <state width="1877" height="185" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1585066864981" />
+    <state x="504" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1585153889620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="316" key="com.intellij.ide.util.TipDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1584098254103" />
-    <state x="504" y="334" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1584313626571" />
+    <state x="504" y="334" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-280.1920.1040@0.0.1920.1040" timestamp="1585153889620" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjetosH$start.coverage" NAME="start Coverage Results" MODIFIED="1584301763198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BlackJack$teste.coverage" NAME="teste Coverage Results" MODIFIED="1584022915136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pad541Blackjack$start.coverage" NAME="start Coverage Results" MODIFIED="1584313508433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pad541Blackjack$start.coverage" NAME="start Coverage Results" MODIFIED="1585061377796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BlackJack$Cartas.coverage" NAME="Cartas Coverage Results" MODIFIED="1584022798684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BlackJack$start.coverage" NAME="start Coverage Results" MODIFIED="1584104254911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

@@ -1,9 +1,23 @@
 import random
 class Cartas:
-    def __init__(self,cartas=['2','3','4','5','6','7','8','9','10','A','J','Q','K']):
-        self.cartas=cartas
+    def __init__(self):
+        self.cartas=self.criar_baralho()
 
-    def embaralhar_cartas(self):
+    def criar_baralho(self):
+        naipes=['♥','♦','♣','♠']
+        cartas=['2','3','4','5','6','7','8','9','10','A','J','Q','K']
+        baralho=[]
+        for i in cartas:
+            for j in naipes:
+                baralho.append(i + j)
+        return baralho
+
+    def pegar_numero_do_baralho(self):
+        baralho=self.criar_baralho()
+        carta=random.choice(baralho)
+        return carta[0]
+
+    def embaralhar_cartas(self)->list:
         num_cartas=13
         cartas_embaralhadas=[]
         for i in range(0,num_cartas):
